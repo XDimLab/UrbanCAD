@@ -169,34 +169,37 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Overview</h2>
-        <img id="teaser" width="100%" src="./images/teaser2_compressed.jpg" alt="Teaser image demonstrating Marigold depth estimation."/>
+        <img id="teaser" width="100%" src="./images/teaser.png" alt="Teaser image demonstrating Marigold depth estimation."/>
         <div class="content has-text-justified">
           <p>
-            We present <span class="methodname">HUGS</span>, a novel pipeline that utilizes 3D Gaussian Splatting for holistic urban scene understanding. 
-            Our main idea involves the joint optimization of geometry, appearance, semantics, and motion using a combination of static and dynamic 3D Gaussians, 
-            where moving object poses are regularized via physical constraints. Our approach offers the ability to render new viewpoints in real-time, yielding 
-            2D and 3D semantic information with high accuracy, and reconstruct dynamic scenes, even in scenarios where 3D bounding box detection are highly noisy.
+            We present <span class="methodname">UrbanCAD</span>, a novel pipeline that automatically builds photorealistic and highly controllable digital twins from a single urban image and a large
+            collection of 3D CAD models and handcrafted materials, supporting various editing operations (top). The produced CAD models can be
+            photorealistically inserted into various background scenes and rendered in novel views, synthesizing challenging out-of-distribution (OOD)
+            scenarios with high fidelity for important downstream applications (bottom).
           </p>
         </div>
-        <!-- <div class="content has-text-justified">
-          <p>
-            The gallery below presents the holistic urban scene understanding results of <span class="methodname">HUGS</span> on the open autonomous driving dataset.
-            Use the slider and gestures to reveal details on both sides.
-          </p>
-        </div> -->
       </div>
     </div>
     <!--/ Abstract. -->
 
+    <!-- Demo video. -->
+    <div class="hero-body">
+      <video id="teaser" autoplay muted controls loop playsinline height="100%">
+        <source src="./static/video/demo_video.mp4"
+                type="video/mp4">
+      </video>
+    </div>
+    <!-- Demo video. -->
+
     <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
+<!--     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
         <div class="publication-video">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/DmPhL-8FeT4?si=IrJkk4bGNQhuQKVK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </div>
-    </div>
+    </div> -->
     <!--/ Paper video. -->
 
   </div>
