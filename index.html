@@ -231,12 +231,37 @@
         <div class="content has-text-justified">
 
           <p>
-            Given a single view input image, we first perform CAD model retrieval and material optimization to
+            Given a single view input image, we first perform CAD model retrieval and retrieval-based material optimization to
             create photorealistic and highly controllable vehicle digital twins (left). Given multi-view background images, we then perform realistic
             vehicle insertion to create various synthetic data for self-driving system testing (right).
           </p>
 
           <img id="method" width="100%" src="./images/pipeline.png" alt="Marigold training scheme"/>
+        </div>
+      </div>
+    </div>
+    <!--/ Method. -->
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Method. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-five-fifths">
+        <h2 class="title is-3">Downstream Applications</h2>
+        <div class="content has-text-justified">
+
+          <p>
+            We find our CAD retrieval, material optimization, and lighting estimation modules are all crucial to constructing photorealistic urban scenarios by testing on various perception models.
+          </p>
+          <img id="method" width="100%" src="./images/downstream_1.png" alt="Marigold training scheme"/>
+
+          <p>
+            We also find the performance of perception models degrades obviously when testing on our constructed out-of-distribution (OOD) scenarios, such as door opening.
+          </p>
+          <img id="method" width="100%" src="./images/downstream_2.png" alt="Marigold training scheme"/>
+          
         </div>
       </div>
     </div>
