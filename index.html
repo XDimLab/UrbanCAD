@@ -231,12 +231,12 @@
         <div class="content has-text-justified">
 
           <p>
-            Our algorithm takes as input posed images of a dynamic urban scene. We decompose the scene into static and dynamic 3D Gaussians,
-             with the motion of dynamic vehicles being modeled via a unicycle model. The 3D Gaussians represent not only appearance but 
-             also semantic and flow information, allowing for rendering the RGB images, semantic labels, as well as optical flow through volume rendering.
+            Given a single view input image, we first perform CAD model retrieval and material optimization to
+            create photorealistic and highly controllable vehicle digital twins (left). Given multi-view background images, we then perform realistic
+            vehicle insertion to create various synthetic data for self-driving system testing (right).
           </p>
 
-          <img id="method" width="100%" src="./images/method_v3.png" alt="Marigold training scheme"/>
+          <img id="method" width="100%" src="./images/pipeline.png" alt="Marigold training scheme"/>
         </div>
       </div>
     </div>
