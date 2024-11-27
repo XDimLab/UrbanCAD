@@ -244,59 +244,6 @@
   </div>
 </section>
 
-<section class="section">
-  <div class="container is-max-desktop">
-    <!-- Method. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-five-fifths">
-        <h2 class="title is-3">Downstream Applications</h2>
-        <div class="content has-text-justified">
-          <h3 class="title is-4">Constructing photorealistic urban scenarios</h3>
-          <p>
-            We find our CAD retrieval, material optimization, and lighting estimation modules are all crucial to constructing photorealistic urban scenarios by testing on various perception models.
-          </p>
-          <img id="method" width="100%" src="./images/downstream_1.png" alt="Marigold training scheme"/>
-
-          <h3 class="title is-4">Constructing OOD situations for perception model testing</h3>
-          <p>
-            Thanks to the high controllability of our generated vehicle models, we can construct various out-of-distribution situations to test the robustness of autonomous perception models. We find the performance of perception models degrades obviously when testing on our constructed door opening scenarios.
-          </p>
-
-            <div class="container">
-              <div id="results-carousel-vertical2" class="carousel results-carousel">
-        
-                <div class="cmpcontent">
-                   <img id="ood_6" height="100%" src="./images/ood/ood_1.png" alt="Marigold training scheme"/>
-                </div>
-        
-                <div class="cmpcontent">
-                   <img id="ood_6" height="100%" src="./images/ood/ood_2.png" alt="Marigold training scheme"/>
-                </div>
-        
-                <div class="cmpcontent">
-                   <img id="ood_6" height="100%" src="./images/ood/ood_3.png" alt="Marigold training scheme"/>
-                </div>
-        
-                <div class="cmpcontent">
-                   <img id="ood_6" height="100%" src="./images/ood/ood_4.png" alt="Marigold training scheme"/>
-                </div>
-        
-                <div class="cmpcontent">
-                   <img id="ood_6" height="100%" src="./images/ood/ood_5.png" alt="Marigold training scheme"/>
-                </div>
-              </div>
-            </div>
-          </div>
-            <img id="ood_door" width="100%" src="./images/ood/ood_door.png" alt="Marigold training scheme"/>
-            <img id="method2" width="100%" src="./images/downstream_2.png" alt="Marigold training scheme"/>
-
-        </div>
-      </div>
-    </div>
-    <!--/ Method. -->
-  </div>
-</section>
-
 <script>
   $(window).on('load', function() {
     bulmaCarousel.attach('#results-carousel-horizontal', {
@@ -322,9 +269,35 @@
   });
 </script>
   
-<section class="hero is-light is-small">
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-five-fifths">
+        <h2 class="title is-3">Downstream Applications</h2>
+        <div class="content has-text-justified">
+          <h3 class="title is-4">Constructing photorealistic urban scenarios</h3>
+          <p>
+            We find our CAD retrieval, material optimization, and lighting estimation modules are all crucial to constructing photorealistic urban scenarios by testing on various perception models.
+          </p>
+          <img id="method" width="100%" src="./images/downstream_1.png" alt="Marigold training scheme"/>
+
+          <h3 class="title is-4">Constructing OOD situations for perception model testing</h3>
+          <p>
+            Thanks to the high controllability of our generated vehicle models, we can construct various out-of-distribution situations to test the robustness of autonomous perception models. We find the performance of perception models degrades obviously when testing on our constructed door opening scenarios.
+          </p>
+            <img id="ood_door" width="100%" src="./images/ood/ood_door.png" alt="Marigold training scheme"/>
+            <img id="method2" width="100%" src="./images/downstream_2.png" alt="Marigold training scheme"/>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
   
+<section class="hero is-light is-small">
+
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel-vertical2" class="carousel results-carousel">
@@ -351,6 +324,16 @@
       </div>
     </div>
   </div>
+  
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-five-fifths">
+        <img id="ood_door" width="100%" src="./images/ood/ood_door.png" alt="Marigold training scheme"/>
+        <img id="method2" width="100%" src="./images/downstream_2.png" alt="Marigold training scheme"/>
+
+        </div>
+      </div>
+    </div>
 </section>
 
 
